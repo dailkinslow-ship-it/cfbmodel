@@ -2,9 +2,14 @@ import os, json
 from pathlib import Path
 from dotenv import load_dotenv
 import requests
+from src.config import load_config
 
 # Configuration
-SEASON = 2024
+#config = load_config()
+#pull_start = config["seasons"]["pull_start"]
+#raw_dir = config["paths"]["raw"]
+
+SEASON = 2025
 BASE_URL = "https://api.collegefootballdata.com"
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
