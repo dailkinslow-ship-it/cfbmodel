@@ -1,0 +1,16 @@
+api:
+  base_url: https://api.collegefootballdata.com
+  min_calls_remaining: 100   # fetch code stops below this
+
+seasons:
+  pull_start: 2010
+  pull_end: 2025
+  dev_start: 2014
+  dev_end: 2023
+  test_start: 2024
+  test_end: 2025
+
+paths:
+  raw: data/raw
+  clean: data/clean
+  db: data/db/cfb.duckdb
